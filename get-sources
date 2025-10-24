@@ -1,0 +1,22 @@
+#!/bin/bash
+
+answer=$1
+
+if [ -f /truenas-share/test ] 
+then
+	if [ $answer == "syntheses" ]
+	then
+		echo "Hello good sir! for searching for a synthesis you must type your search in this format --synthesis of 'chemical name'-- and have a science filled day."
+	fi
+	if[ $answer == "polymerization" ]
+	then
+		echo "Hello good sir! for searching for a polymerization you must type your search in this format --polymerization of 'chemical name'-- and have a science filled day."
+	fi	
+	/bin/python /home/calisthenicchemist/pythoncode/$answer.py
+	mv /home/calisthenicchemist/pythoncode/sources/* /truenas-share/temporary/get_sources.py
+else
+	echo "you are not connected to your smb share, so I will connect you."
+	connect
+	echo "you are know connected"
+	get-sources $answer
+fi
