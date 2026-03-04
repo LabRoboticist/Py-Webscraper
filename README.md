@@ -7,3 +7,6 @@ I had no team but i did spend several months working on perfecting it.
 ## What I had to use?
 <li>Gecko drivers</li>
 <li>Ubuntu was the system this was run on</li>
+
+## My level
+I was an ameture when i made this and i never got to a point to where i found it acceptable. I only found more and more issues with my topic or problem i was trying to solve. ...In the end i learned alot.
