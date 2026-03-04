@@ -5,7 +5,5 @@ I had no team but i did spend several months working on perfecting it.
 </p>
 
 ## What I had to use?
-<ul>
-  Gecko drivers
-  Ubuntu was the system this was run on
-</ul>
+<li>Gecko drivers</li>
+<li>Ubuntu was the system this was run on</li>
